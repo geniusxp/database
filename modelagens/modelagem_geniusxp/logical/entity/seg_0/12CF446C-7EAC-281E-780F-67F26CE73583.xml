@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="12CF446C-7EAC-281E-780F-67F26CE73583" name="T_GXP_SPEAKER">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 20:32:29 UTC</createdTime>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<engineerTo>
+<item key="31929BB6-6B55-C2BE-EAB1-ACCB36FF8253" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_speaker" id="AE25EA70-92A4-3005-E966-746A17DB01B6">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 21:03:02 UTC</createdTime>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<engineerTo>
+<item key="31929BB6-6B55-C2BE-EAB1-ACCB36FF8253" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_speaker" id="5E669CDE-4093-543C-F7E7-0C11CAB52859">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 21:03:13 UTC</createdTime>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<engineerTo>
+<item key="31929BB6-6B55-C2BE-EAB1-ACCB36FF8253" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tx_description" id="ED8E9090-BA53-98E5-1B0F-41CCB310CE30">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 21:03:32 UTC</createdTime>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<engineerTo>
+<item key="31929BB6-6B55-C2BE-EAB1-ACCB36FF8253" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="url_social_media" id="35815100-1D08-0A4C-5F99-2AAC4EAB8D29">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 21:03:52 UTC</createdTime>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<engineerTo>
+<item key="31929BB6-6B55-C2BE-EAB1-ACCB36FF8253" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_language" id="88D6B83F-321E-71DC-C586-8C1EB3E51B0D">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 21:04:19 UTC</createdTime>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<engineerTo>
+<item key="31929BB6-6B55-C2BE-EAB1-ACCB36FF8253" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 BYTE</dataTypeSize>
+<ownDataTypeParameters>70 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="url_avatar" id="E5842EA9-AF71-830B-978E-EA6B70E8338B">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 21:04:59 UTC</createdTime>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<engineerTo>
+<item key="31929BB6-6B55-C2BE-EAB1-ACCB36FF8253" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C7EF1154-1862-A57F-0522-7ED68898863D" name="T_GXP_SPEAKER PK">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 21:03:11 UTC</createdTime>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<engineerTo>
+<item key="31929BB6-6B55-C2BE-EAB1-ACCB36FF8253" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AE25EA70-92A4-3005-E966-746A17DB01B6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

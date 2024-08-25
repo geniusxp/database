@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="826D9BAA-2EC8-DC70-CE6E-9B6FF92E8EAB" name="T_GXP_ADMINISTRATOR">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>E7354BFE-0325-96C4-4E04-433052F30AFD</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_administrator" id="2275A324-F615-8FB8-84E4-A2949822F162">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>73054283-B0EA-81AE-CA10-26F0C1952DE6</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="90B76D30-E5FB-702D-558A-E6B68EB5CE60">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>16848960-09D6-19D2-4175-AF0BA788703E</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_password" id="70171C63-25F2-DD4D-79B0-D87985C85FCD">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>1A48974E-9F82-7629-91E8-1070D9D62395</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="40F768B2-A558-633B-199D-733A3E0E1375" name="T_GXP_ADMINISTRATOR_PK">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>AB3EB57A-3AB6-9F9E-13C7-31FC7D6EE39C</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2275A324-F615-8FB8-84E4-A2949822F162"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

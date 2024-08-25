@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F450B51F-54AD-8F8B-4080-243C04D2820D" name="T_GXP_ADMINISTRATOR_EVENT">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:13:02 UTC</createdTime>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<engineerTo>
+<item key="31929BB6-6B55-C2BE-EAB1-ACCB36FF8253" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_administrator" id="E103CBAD-1F29-1F80-009A-1E17A847324E">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:13:28 UTC</createdTime>
+<generatorID>F9669C5B-DF10-73CC-8338-694916015521</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<engineerTo>
+<item key="31929BB6-6B55-C2BE-EAB1-ACCB36FF8253" value="true"/>
+</engineerTo>
+<referedAttribute>73054283-B0EA-81AE-CA10-26F0C1952DE6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_event" id="2622E079-C350-1D30-1E06-A398087C363E">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:13:43 UTC</createdTime>
+<generatorID>619DD736-9971-422F-EC5A-FF12B15C8C31</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<engineerTo>
+<item key="31929BB6-6B55-C2BE-EAB1-ACCB36FF8253" value="true"/>
+</engineerTo>
+<referedAttribute>F9636C03-C660-7CE0-A434-36AC4087008A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_administrator_event" id="3A7AB41D-ED29-BA06-B0B3-D68E49DAC566">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:14:22 UTC</createdTime>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<engineerTo>
+<item key="31929BB6-6B55-C2BE-EAB1-ACCB36FF8253" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

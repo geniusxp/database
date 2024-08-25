@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7EFF8C9E-7A8C-5678-5C01-4534B9462AF6" containerWithKeyObject="26666A4E-7CCD-DA57-4965-419CA1D2F2BF" localFKIndex="23076F90-04E7-3526-8AF7-C3E337BDA611" name="T_GXP_VOTE_T_GXP_POLL_OPTION_FK">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>2362D600-B4FD-3BC4-4D8F-335619F07002</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<referredTableLongName>T_GXP_POLL_OPTION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AE39A2F8-20D9-1DEC-7956-272070454E3F</referredTableID>
+<keyObject>F7504387-E648-B6B3-993C-2218F05D2D04</keyObject>
+<referredKeyID>F7504387-E648-B6B3-993C-2218F05D2D04</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_poll_option</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C6E9BA41-F73D-3A45-5ED6-925C9EE50218" containerWithKeyObject="497EFA87-BB9F-7028-5279-B5F569E95928" localFKIndex="C9BD66D3-EB64-F90C-F593-CE10CC639F1E" name="T_GXP_LECTURE_T_GXP_EVENT_DAY_FK">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>E9F69550-F9B9-2709-EC61-80116B0D67B8</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<referredTableLongName>T_GXP_EVENT_DAY</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3AF5B0B0-4B96-B175-AD55-AE87E765F493</referredTableID>
+<keyObject>8F71E9FA-0014-A9B0-7707-DE83D7F3EE18</keyObject>
+<referredKeyID>8F71E9FA-0014-A9B0-7707-DE83D7F3EE18</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_event_day</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

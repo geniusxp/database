@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="CE086D16-5DFD-EB5A-FDE2-7F93E7B5FD6A">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 21:57:47 UTC</createdTime>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<engineerTo>
+<item key="31929BB6-6B55-C2BE-EAB1-ACCB36FF8253" value="true"/>
+</engineerTo>
+<sourcePk>5D2F9917-0D5A-9EA1-0890-09432EF2BDE3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B414A332-9B2F-D4A6-AACE-9D4F749EF53E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F4FC9F67-C7E6-D7AF-BC2A-9CE5E7DCDBB6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

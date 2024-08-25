@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="497EFA87-BB9F-7028-5279-B5F569E95928" name="T_GXP_LECTURE">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>996C4670-1581-3174-053C-26BFABBAA3A2</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_lecture" id="1F919407-4B91-CCD8-64E0-497ABC32CBF9">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>C0F0FD57-75DB-C566-6461-A2A8A1845050</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_lecture" id="F8C277DD-20EA-A381-9360-3EDA14E68271">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>22602F6F-176A-5B58-9087-74D713F16E18</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tx_description" id="A6087B32-2F46-9C99-740D-CB56024355F3">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>35BF1E74-6215-4466-7F8F-B259E5D72414</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_lecture" id="134520DE-D929-8E18-BA81-07527680A0AE">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>BC819A2B-C74C-0B97-C8D7-BDE88BFBED96</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_GXP_EVENT_DAY_id_event_day" id="C83A2318-0670-B4F0-37A5-15BD66E54F0D">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>22B4CB67-1939-ECF7-18ED-FB2A5E3879E7</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6E9BA41-F73D-3A45-5ED6-925C9EE50218" referredColumn="F1C82622-3344-2D68-2C2F-05306E2A9645"/>
+</associations>
+</Column>
+<Column name="T_GXP_SPEAKER_id_speaker" id="C2DFA669-B374-B9F5-710F-569442EA8858">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>C40DAE19-7447-5A65-A733-0EE9EB8C35E7</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="254360E3-8A0B-EA3B-088D-3E1330EB3124" referredColumn="2FE9C3BE-A756-57EF-ED60-FB5D83029F67"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BAE58776-0309-7885-D483-ADF3EFB91CEC" name="T_GXP_LECTURE_PK">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>BBA4D444-BD81-5384-B1EB-686F6E7A0DBB</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F919407-4B91-CCD8-64E0-497ABC32CBF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9BD66D3-EB64-F90C-F593-CE10CC639F1E" name="T_GXP_LECTURE_T_GXP_EVENT_DAY_FK">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>E9F69550-F9B9-2709-EC61-80116B0D67B8</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C83A2318-0670-B4F0-37A5-15BD66E54F0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D441C10B-DE4F-7599-FA49-441C75CC6B61" name="T_GXP_LECTURE_T_GXP_SPEAKER_FK">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>13D130E2-279C-FE0E-D224-0A3A880F9054</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2DFA669-B374-B9F5-710F-569442EA8858"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

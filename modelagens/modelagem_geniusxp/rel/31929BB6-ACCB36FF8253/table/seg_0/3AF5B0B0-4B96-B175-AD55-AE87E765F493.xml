@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3AF5B0B0-4B96-B175-AD55-AE87E765F493" name="T_GXP_EVENT_DAY">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>946C1835-31EB-DFFD-285B-478EE6D9FA7E</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_event_day" id="F1C82622-3344-2D68-2C2F-05306E2A9645">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>44AD73B3-68D6-D7DC-EE05-71D4E9BF494D</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_start" id="6FF58C35-59DF-0FB3-D9BF-E54F899DA55C">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>236982AC-D64F-5F79-925E-87E752583D00</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_end" id="344F975E-BD3F-AC97-5210-2A82827F70AB">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>D59C589C-EEC9-FB3A-9526-8B54DEFF4DD5</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="url_transmission" id="9C34350F-53E3-70A3-4120-E6586AE8ADF7">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>8BD6050C-95C9-5923-31AF-41C6FFB279C0</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_GXP_EVENT_id_event" id="64744D70-0547-4DE3-AF1F-BEE8152B976E">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>52A05125-DF20-A997-3E3A-66D1592F5A67</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25FCC817-66B1-751C-E177-56DBDF8E64C0" referredColumn="2FA52503-502B-2B8E-596B-6FEEE5E0B416"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F71E9FA-0014-A9B0-7707-DE83D7F3EE18" name="T_GXP_EVENT_DAY_PK">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>EE4F6D62-A304-2470-6145-EF951D011BAF</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1C82622-3344-2D68-2C2F-05306E2A9645"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="801D25B8-0543-830C-8170-1D8BDB9F7761" name="T_GXP_EVENT_DAY_T_GXP_EVENT_FK">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>9CC4C586-08B4-7BF6-F39B-F750847BD9A6</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64744D70-0547-4DE3-AF1F-BEE8152B976E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

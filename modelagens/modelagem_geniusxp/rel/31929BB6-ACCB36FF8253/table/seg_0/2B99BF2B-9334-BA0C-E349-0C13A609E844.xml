@@ -1,0 +1,188 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B99BF2B-9334-BA0C-E349-0C13A609E844" name="T_GXP_TICKET">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>AC9F9136-653A-4ABC-EC2F-9150C439FC0D</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ticket" id="12AE0435-D81F-90CA-65B3-89CFD6EFF0F5">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>882D8EF6-61A4-37DF-5E8A-89400506EEBF</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_of_use" id="EC78A63C-4386-4252-1FEE-DE93FADECDF6">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>4F5752A8-E644-D0D3-B214-055A88069D43</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_issued" id="1BAF6557-DFCE-58D4-E5DB-171FD7CBDF35">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>0265078B-5064-077E-08E5-FE12264490FB</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_ticket" id="3330015A-F972-3297-3028-DD1946D8DE37">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>D67FDB3B-1B00-CBAC-4D81-A02923288898</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_GXP_USER_id_user" id="59CE2BE2-63AB-4B36-7C28-470FD279B930">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>9B6D21D4-1769-FF71-A042-835369EDEB38</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F002151-EAAD-27C3-FBBF-523D52BEE804" referredColumn="50751A0F-537A-B11D-968D-EB4A1AED8483"/>
+</associations>
+</Column>
+<Column name="T_GXP_TICKET_TYPE_id_ticket_type" id="AA1B28DE-AE85-7B03-CC0B-2269C9B8253D">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>D200775B-620F-55AF-5AB7-B576CEB9724C</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F2DBC79E-D6B7-D513-2696-71FE4D70717A" referredColumn="1F04D35B-7F16-1FCE-6829-38D01CB240AD"/>
+</associations>
+</Column>
+<Column name="T_GXP_COUPON_id_coupon" id="12657D8F-E2A0-AF4E-71F9-A70BDD843550">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>8B33D6F9-A78E-6157-4C36-8A1F32EC558A</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="455F91BF-573B-A6E9-5065-5683BE7CE137" referredColumn="99551642-DD53-CC5D-8728-E81C2EE6D86D"/>
+</associations>
+</Column>
+<Column name="T_GXP_PAYMENT_id_payment" id="2884FC9F-0C87-C682-88DF-9FC5DE2BA091">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>0BAFDBE8-C634-0B91-B6E5-BB5FF24DB3E9</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DF4D19F-E7DC-D7E0-0704-F423FC391E51" referredColumn="45F950FF-52DB-F4F4-4945-E77B2FF56FF1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="18DCC4DF-8955-98B4-234E-0CE685A414AA" name="T_GXP_TICKET_PK">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>4E130D72-7C48-7AD0-7B71-DCCB48537FF0</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12AE0435-D81F-90CA-65B3-89CFD6EFF0F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4462F45B-3F64-198F-BFBB-84773157A61D" name="T_GXP_TICKET__IDX">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>268BBE22-8C97-D9E7-0C6F-C9CC21EAF7A5</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="2884FC9F-0C87-C682-88DF-9FC5DE2BA091"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD005EFF-6F04-2289-00B0-E0DEEF717B63" name="T_GXP_TICKET_T_GXP_COUPON_FK">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>F6187D6A-CF71-B62F-E9B5-95F5FE282797</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12657D8F-E2A0-AF4E-71F9-A70BDD843550"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A68D245C-4553-4B43-81FA-D996E0FAC6B9" name="T_GXP_TICKET_T_GXP_PAYMENT_FK">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>268BBE22-8C97-D9E7-0C6F-C9CC21EAF7A5</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2884FC9F-0C87-C682-88DF-9FC5DE2BA091"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8900DB24-0FAB-C9B8-69CC-AF09BEC3B919" name="T_GXP_TICKET_T_GXP_USER_FK">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>4AA59BC2-A1A9-2845-F558-F90F1F31CAFE</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59CE2BE2-63AB-4B36-7C28-470FD279B930"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D31B6B27-4420-AA0A-2230-14608EE3ED8D" name="T_GXP_TICKET_T_GXP_TICKET_TYPE_FK">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>C22C9D7E-3DCE-AA78-043D-B1FF718AD9E4</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA1B28DE-AE85-7B03-CC0B-2269C9B8253D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

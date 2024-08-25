@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F2DBC79E-D6B7-D513-2696-71FE4D70717A" containerWithKeyObject="2B99BF2B-9334-BA0C-E349-0C13A609E844" localFKIndex="D31B6B27-4420-AA0A-2230-14608EE3ED8D" name="T_GXP_TICKET_T_GXP_TICKET_TYPE_FK">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>C22C9D7E-3DCE-AA78-043D-B1FF718AD9E4</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<referredTableLongName>T_GXP_TICKET_TYPE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F793FC48-2680-3F58-1055-7B6426D98C6D</referredTableID>
+<keyObject>C9E1F380-ED94-4E58-F854-8EF09D97B34D</keyObject>
+<referredKeyID>C9E1F380-ED94-4E58-F854-8EF09D97B34D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_ticket_type</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

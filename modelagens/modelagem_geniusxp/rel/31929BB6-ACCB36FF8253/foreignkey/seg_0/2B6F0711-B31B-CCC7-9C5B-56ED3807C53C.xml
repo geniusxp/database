@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2B6F0711-B31B-CCC7-9C5B-56ED3807C53C" containerWithKeyObject="0020FC1F-0EAB-F130-66BC-8265645F999C" localFKIndex="860DF4C2-1074-4AB5-CCCD-E4C61E1F34DE" name="T_GXP_ADMINISTRATOR_EVENT_T_GXP_ADMINISTRATOR_FK">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>F9669C5B-DF10-73CC-8338-694916015521</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<referredTableLongName>T_GXP_ADMINISTRATOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>826D9BAA-2EC8-DC70-CE6E-9B6FF92E8EAB</referredTableID>
+<keyObject>40F768B2-A558-633B-199D-733A3E0E1375</keyObject>
+<referredKeyID>40F768B2-A558-633B-199D-733A3E0E1375</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_administrator</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

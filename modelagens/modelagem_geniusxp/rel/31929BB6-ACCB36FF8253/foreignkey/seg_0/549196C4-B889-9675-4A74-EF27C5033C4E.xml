@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="549196C4-B889-9675-4A74-EF27C5033C4E" containerWithKeyObject="C487D051-AFDA-98FF-53CA-19131BA3A02D" localFKIndex="09150F85-6581-B72B-291E-15DE5624D249" name="T_GXP_POLL_T_GXP_EVENT_FK">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>5DA52E8A-5F48-869C-A38C-F3E08F501584</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<referredTableLongName>T_GXP_EVENT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>92C1E81B-FEBE-8DE0-6BDF-4A554648042D</referredTableID>
+<keyObject>4054AA00-083A-4EE0-79E3-125D637B41DF</keyObject>
+<referredKeyID>4054AA00-083A-4EE0-79E3-125D637B41DF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_event</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

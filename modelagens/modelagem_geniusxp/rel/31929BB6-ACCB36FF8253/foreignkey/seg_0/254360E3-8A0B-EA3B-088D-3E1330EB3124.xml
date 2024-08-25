@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="254360E3-8A0B-EA3B-088D-3E1330EB3124" containerWithKeyObject="497EFA87-BB9F-7028-5279-B5F569E95928" localFKIndex="D441C10B-DE4F-7599-FA49-441C75CC6B61" name="T_GXP_LECTURE_T_GXP_SPEAKER_FK">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>13D130E2-279C-FE0E-D224-0A3A880F9054</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<referredTableLongName>T_GXP_SPEAKER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E3D0E1F3-5465-6BC6-054F-6E0B7E3EF101</referredTableID>
+<keyObject>ABCD5C96-FFE2-820D-248E-C3A6E31C9CE9</keyObject>
+<referredKeyID>ABCD5C96-FFE2-820D-248E-C3A6E31C9CE9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_speaker</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

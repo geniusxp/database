@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2DF4D19F-E7DC-D7E0-0704-F423FC391E51" containerWithKeyObject="2B99BF2B-9334-BA0C-E349-0C13A609E844" localFKIndex="A68D245C-4553-4B43-81FA-D996E0FAC6B9" name="T_GXP_TICKET_T_GXP_PAYMENT_FK">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>268BBE22-8C97-D9E7-0C6F-C9CC21EAF7A5</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<referredTableLongName>T_GXP_PAYMENT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B1C5F526-1496-6717-20CD-0A64917BC46D</referredTableID>
+<keyObject>6F28D7D4-B750-B646-67FF-11A422A0BAAC</keyObject>
+<referredKeyID>6F28D7D4-B750-B646-67FF-11A422A0BAAC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_payment</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

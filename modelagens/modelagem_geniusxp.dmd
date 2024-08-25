@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelagem_geniusxp" id="148576F6-C856-C508-B4BC-7CF0F1E699A5" version="3.5">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 20:28:08 UTC</createdTime>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>148576F6-C856-C508-B4BC-7CF0F1E699A5</designId>
+</OSDM_Design>

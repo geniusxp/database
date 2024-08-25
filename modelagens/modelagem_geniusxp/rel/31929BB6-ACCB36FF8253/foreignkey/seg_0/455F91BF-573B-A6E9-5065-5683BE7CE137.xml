@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="455F91BF-573B-A6E9-5065-5683BE7CE137" containerWithKeyObject="2B99BF2B-9334-BA0C-E349-0C13A609E844" localFKIndex="DD005EFF-6F04-2289-00B0-E0DEEF717B63" name="T_GXP_TICKET_T_GXP_COUPON_FK">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-08-25 22:18:07 UTC</createdTime>
+<generatorID>F6187D6A-CF71-B62F-E9B5-95F5FE282797</generatorID>
+<ownerDesignName>modelagem_geniusxp</ownerDesignName>
+<referredTableLongName>T_GXP_COUPON</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C39D5E2A-DF93-0C7D-C596-6F1AF4534359</referredTableID>
+<keyObject>F3F592F1-0A97-146C-CD95-E58C50291BC3</keyObject>
+<referredKeyID>F3F592F1-0A97-146C-CD95-E58C50291BC3</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_coupon</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
