@@ -44,3 +44,5 @@ BEGIN
         WHEN OTHERS THEN
             DBMS_OUTPUT.PUT_LINE('Houve um erro na execução da trigger: ' || sqlerrm);
 END;
+
+SELECT * FROM t_gxp_audit;

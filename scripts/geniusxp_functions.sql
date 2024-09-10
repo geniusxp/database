@@ -81,6 +81,6 @@ BEGIN
             RETURN 0;
 END;
 
-select fn_calculate_event_revenue(19) as from dual;
+select fn_calculate_event_revenue(1) as RECEITA_EVENTO from dual;
 
 

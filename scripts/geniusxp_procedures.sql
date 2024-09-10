@@ -65,7 +65,7 @@ END;
 DECLARE
     v_json_result CLOB;
 BEGIN
-    proc_get_user_events(3, v_json_result);
+    proc_get_user_events(30, v_json_result);
     DBMS_OUTPUT.PUT_LINE(v_json_result);
 END;
 
@@ -128,6 +128,7 @@ BEGIN
 END;
 
 EXEC proc_column_value_comparison;
+
 
 
 
