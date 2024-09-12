@@ -2,45 +2,45 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 INSERT INTO T_GXP_USER (
-    id_user, ds_email, ds_password, nr_cpf, dt_birth, url_avatar, tx_description, tx_interests
+    id_user, nm_user, ds_email, ds_password, nr_cpf, dt_birth, url_avatar, tx_description, tx_interests
 ) VALUES (
-    seq_t_gxp_user.NEXTVAL, 'alice.santos@example.com', 'encryptedPassword1', '12345678901', TO_DATE('1985-05-10', 'YYYY-MM-DD'), 
+    seq_t_gxp_user.NEXTVAL, 'Alice Santos', 'alice.santos@example.com', 'encryptedPassword1', '12345678901', TO_DATE('1985-05-10', 'YYYY-MM-DD'), 
     'https://example.com/avatars/alice.png', 
     'Profissional de marketing com mais de 10 anos de experiência em eventos corporativos.', 
     'Tecnologia, Marketing Digital, Eventos Corporativos'
 );
 
 INSERT INTO T_GXP_USER (
-    id_user, ds_email, ds_password, nr_cpf, dt_birth, url_avatar, tx_description, tx_interests
+    id_user, nm_user, ds_email, ds_password, nr_cpf, dt_birth, url_avatar, tx_description, tx_interests
 ) VALUES (
-    seq_t_gxp_user.NEXTVAL, 'bruno.oliveira@example.com', 'encryptedPassword2', '23456789012', TO_DATE('1990-07-21', 'YYYY-MM-DD'), 
+    seq_t_gxp_user.NEXTVAL, 'Bruno Oliveira', 'bruno.oliveira@example.com', 'encryptedPassword2', '23456789012', TO_DATE('1990-07-21', 'YYYY-MM-DD'), 
     'https://example.com/avatars/bruno.png', 
     'Engenheiro de software apaixonado por inovação e soluções tecnológicas.', 
     'Desenvolvimento de Software, Inteligência Artificial, Inovação'
 );
 
 INSERT INTO T_GXP_USER (
-    id_user, ds_email, ds_password, nr_cpf, dt_birth, url_avatar, tx_description, tx_interests
+    id_user, nm_user, ds_email, ds_password, nr_cpf, dt_birth, url_avatar, tx_description, tx_interests
 ) VALUES (
-    seq_t_gxp_user.NEXTVAL, 'carla.martins@example.com', 'encryptedPassword3', '34567890123', TO_DATE('1992-03-15', 'YYYY-MM-DD'), 
+    seq_t_gxp_user.NEXTVAL, 'Carla Martins', 'carla.martins@example.com', 'encryptedPassword3', '34567890123', TO_DATE('1992-03-15', 'YYYY-MM-DD'), 
     'https://example.com/avatars/carla.png', 
     'Gestora de eventos com foco em sustentabilidade e inclusão.', 
     'Sustentabilidade, Inclusão Social, Networking'
 );
 
 INSERT INTO T_GXP_USER (
-    id_user, ds_email, ds_password, nr_cpf, dt_birth, url_avatar, tx_description, tx_interests
+    id_user, nm_user, ds_email, ds_password, nr_cpf, dt_birth, url_avatar, tx_description, tx_interests
 ) VALUES (
-    seq_t_gxp_user.NEXTVAL, 'diego.ferreira@example.com', 'encryptedPassword4', '45678901234', TO_DATE('1988-11-30', 'YYYY-MM-DD'), 
+    seq_t_gxp_user.NEXTVAL, 'Diego Ferreira', 'diego.ferreira@example.com', 'encryptedPassword4', '45678901234', TO_DATE('1988-11-30', 'YYYY-MM-DD'), 
     'https://example.com/avatars/diego.png', 
     'Empreendedor com experiência em startups e economia digital.', 
     'Empreendedorismo, Startups, Economia Digital'
 );
 
 INSERT INTO T_GXP_USER (
-    id_user, ds_email, ds_password, nr_cpf, dt_birth, url_avatar, tx_description, tx_interests
+    id_user, nm_user, ds_email, ds_password, nr_cpf, dt_birth, url_avatar, tx_description, tx_interests
 ) VALUES (
-    seq_t_gxp_user.NEXTVAL, 'elisa.costa@example.com', 'encryptedPassword5', '56789012345', TO_DATE('1995-08-05', 'YYYY-MM-DD'), 
+    seq_t_gxp_user.NEXTVAL, 'Elisa Costa', 'elisa.costa@example.com', 'encryptedPassword5', '56789012345', TO_DATE('1995-08-05', 'YYYY-MM-DD'), 
     'https://example.com/avatars/elisa.png', 
     'Consultora em gestão de eventos, com foco em experiências imersivas.', 
     'Experiências Imersivas, Gestão de Eventos, Psicologia do Consumidor'
